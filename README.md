@@ -10,8 +10,8 @@
 1. Clone repo
 
    ```bash
-   git clone https://github.com/xinntao/Real-ESRGAN.git
-   cd Real-ESRGAN
+   git clone https://github.com/RefikAnadolStudio/upscaling-pipeline
+   cd upscaling-pipeline
    ```
 
 1. Install dependent packages
@@ -40,7 +40,7 @@ wget https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_
 Inference!
 
 ```bash
-python inference_realesrgan.py -n RealESRGAN_x4plus -i inputs --face_enhance
+python inference_realesrgan.py -n RealESRGAN_x4plus -i inputs
 ```
 
 Results are in the `results` folder
